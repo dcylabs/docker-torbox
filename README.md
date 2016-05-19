@@ -16,6 +16,12 @@ docker run \
  -v torrc:/var/tor/torrc \
  dcylabs/docker-torbox
 ```
+# Using it 
+Specify your web browser proxy 
+For all scheme
+*SOCKS5
+*docker.server.url.or.ip
+*9050
 # Contribute 
 * Ask for improvements
 * Make pull request 
