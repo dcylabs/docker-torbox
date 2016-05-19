@@ -13,7 +13,7 @@ docker run \
  -p 9001:9001 \
  -p 9030:9030 \
  -p 9050:9050 \
- -v torrc:/var/tor/torrc
+ -v torrc:/var/tor/torrc \
  dcylabs/docker-torbox
 ```
 # Contribute 
