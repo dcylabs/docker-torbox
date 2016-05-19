@@ -1,0 +1,8 @@
+Nickname DockerTorBox
+ExitPolicy reject *:* 
+Log notice file /var/log/tor/notices.log
+RelayBandwidthRate 400 KB  
+RelayBandwidthBurst 800 KB 
+SocksPort 0.0.0.0:9050 
+ORPort 9001
+DirPort 9030 
